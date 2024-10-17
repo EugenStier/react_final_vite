@@ -1,0 +1,44 @@
+.Filter {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.Filter_Price_box {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.Filter_Price_label {
+  font-size: clamp(16px, 1.8vw, 20px);
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+
+.Filter_minPrice_input {
+  width: 112px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 0 16px;
+}
+
+.Filter_minPrice_input::placeholder {
+  color: #8b8b8b;
+}
+
+.Filter_maxPrice_input {
+  width: 112px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.Filter_maxPrice_input::placeholder {
+  color: #8b8b8b;
+}
